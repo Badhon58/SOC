@@ -23,7 +23,7 @@
 ## Core Concept
 
 - The main focus of the SOC team is to keep Detection and Response intact.
-- **People**, **Process** , and **Technology** coexist in a SOC environment. A Team of professional individuals working on state-of the art security tools in the presence of proper processes is what makes a mature SOC environment.
+- **People**, **Process** , and **Technology's** coexist in a SOC environment. A Team of professional individuals working on state-of the art security tools in the presence of proper processes is what makes a mature SOC environment.
 
 - **_CISO_** (Chick Information Security Officer)
   - **SOC Manager**
