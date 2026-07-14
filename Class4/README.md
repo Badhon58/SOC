@@ -59,3 +59,72 @@ Procedures are the attacker's exact implementation in the real world.
   - Scripts
   - Timing etc come into play
 - Example : **Technique** Credential Dumping.
+
+---
+
+## IOCs = Indicators of Compromise
+
+They are observable evidence that suggests a system may be compromised or under attack. If TTPs describe attacker behavior. IOCs are the footprints attackers leave behind.
+
+SOC analysts hunt detect, correlate, and respond using IOCs every single day.
+IOC = _Something bad happened here, and we can prove it with data_.
+
+- _That "data" comes from_
+  - Logs
+  - Network traffic
+  - Endpoint activity
+  - Email headers
+  - File systems
+
+- _In a real SOC environment, IOCs help you_
+  - Trigger alerts in SIEM
+  - Confirm malicious activity
+  - Correlate attacks across systems
+  - Respond quickly (block)
+  - Write incident reports.
+
+### Types of IOCs
+
+1. **_Network Based IOCs_**
+   This show what happened inside the network.
+
+- _Example_
+  - Malicious IP address
+  - Suspicious domain
+  - C2 server communication
+  - Unusual ports or protocols
+- _Where SOC Sees Them_
+  - Firewall Logs
+  - proxy logs
+  - DNS logs
+  - IDS/IPS alerts
+
+2. **_Host/Endpoint-based IOCs_**
+   These show what happened inside the system
+
+- _Example_
+  - Suspicious processes
+  - Unexpected services
+  - Registry changes
+  - New scheduled tasks
+- _Where SOC Sees Them_
+  - EDR/XDR
+  - Windows Event logs
+  - Sysmon
+  - Linux audit logs
+
+3. **_File-based IOCs_**
+   These relate to malicious files
+
+- _Example_
+  - File hash (MD5, SHA256)
+  - File name patterns
+  - File size anomalies
+- _Where SOC Sees Them_
+  - Antivirus
+  - EDR
+  - Email security gateways
+  - Sandboxes
+
+4. _Email-based IOCs_
+   THese relate to malicious emails
