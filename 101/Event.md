@@ -54,3 +54,17 @@
 ---
 
 ## SOC Tools
+
+- Security Information and Event Management (SIEM)
+- Security Orchestration, Automation, and Response (SOAR)
+- Incident Management Tools
+- Network Security Monitoring (NSM)
+- Endpoint Detection and Response (EDR)
+- Firewalls
+  - Network Firewalls
+  - Next-Generation Firewalls (NGFW)
+  - Web Application Firewall (WAF)
+- Intrusion Detection and Prevention Systems (IDS/IPS)
+- Threat Intelligence Platforms (TIP)
+- Forensic Analysis Tools
+- Malware Analysis Tools
