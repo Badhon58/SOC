@@ -10,6 +10,8 @@
   - Dashboards, Reports, and Visualization
   - Threat Intelligence Integration
 
+---
+
 2. **Security Orchestration, Automation, and Response (SOAR)**
 
 - _Splunk SOAR, Blink, IBM Radar, Tines_
@@ -27,6 +29,8 @@
   - _Analytics and Intelligence_
   - _Reporting_
 
+---
+
 3. **Incident Management Tools**
 
 - _Atlassian, servicenow, freshworks, OnPage_
@@ -37,6 +41,8 @@
 - _Alert Management_
 - _Workflow Automation_
 - _Collaboration_
+
+---
 
 4. **Network Security Monitoring (NSM)**
 
@@ -52,6 +58,8 @@
 - _Integration with SIEM_
   - Correlate network events with endpoint telemetry
 
+---
+
 5. **Intrusion Detection and Prevention Systems (IDS/IPS)**
 
 - _SNORT, SURICATA, ZEEK_
@@ -61,6 +69,8 @@
 - _Actively block and prevent threats_
 - _Logging and reporting_
 
+---
+
 6. **Endpoint Detection and Response (EDR)**
 
 - _CrowdStrike, Carbon Black_
@@ -69,6 +79,8 @@
 - Threat Detection and Prevention
 - Incident Investigation
 - Remediation and Response
+
+---
 
 7. **Firewalls**
 
@@ -86,6 +98,8 @@
   - Protect web applications from attacks
   - Layer 7
 
+---
+
 8. **Threat Intelligence Platforms (TIP)**
 
 - OPENCTI, MISP, MALTEGO
@@ -95,6 +109,8 @@
 - Analysis and Prioritization
 - Integration with SIEM
 
+---
+
 9. **Forensic Analysis Tools**
 
 - AUTOPSY, EZ Tools
@@ -103,6 +119,8 @@
 - Memory Forensics
 - Registry Forensics
 - Network Traffic Forensics
+
+---
 
 10. **Malware Analysis Tools**
 
