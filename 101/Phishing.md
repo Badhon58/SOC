@@ -28,5 +28,36 @@ _Objective_ : Phishing is the act of attempting to obtain sensitive information 
   - _Familiarity_
     - Establish credibility through recognition
 
-- **Phishing Case Studies**
-  -
+<!-- - ## **Phishing Case Studies** -->
+
+---
+
+- **_Phishing Attacks Studies_**
+  - _Information Gathering_
+    - Collecting data through reconnaissance
+    - Verify existing accounts, craft credible phished
+  - _Credential harvesting_
+    - Obtain login credentials from victims
+    - Fake login pages, deceptive URls
+  - _Malware Delivery_
+    - Malicious attachments or links
+    - Drive-by Downloads
+  - _Spear Phishing_
+    - Targeted and customized phishing
+    - Research specific individuals or organizations
+  - _Whaling_
+    - Targeting high-profile individuals (CEOs, executives)
+  - _Vishing, SMiShing and Quishing_
+    - Attempts to obtain information over the phone
+    - SMS messages containing malicious URLs
+    - OR codes leading to malicious URLs
+  - _Business Email Compromise (BEC)_
+    - Compromising legitmate email accounts
+    - Unauthorized wire transfers, invoice scams
+  - _Spam_
+    - Unsolicated, irrelevant, and unwanted email
+    - Not typically with malicious intent
+
+---
+
+- **Phishing Attack Techniques**
