@@ -192,3 +192,52 @@ $ get-filehash .\quotation.ios; get-filehash .\quotation.ios -algorithm sha1; ge
   - _hybrid-analysis.com_
   - _joesandbox.com_
   - _anyrun.com_
+
+---
+
+## Automated Email Analysis with PhishTools
+
+- https://app.phishtool.com/
+
+---
+
+## Reactive Phishing Defense
+
+- **Microsoft Exchange Online**
+- _Containment_
+  - Determine Scope
+  - Quarantine
+  - Block Sender Artifacts
+  - Block Web Artifacts
+  - Block File Artifacts
+- _Eradication_
+  - Remove malicious emails
+    - Content search and eDiscovery
+  - Remove malicious files
+  - Abuse form submissions
+  - Credential changes
+  - ReImaging
+- _Recovery_
+  - Restore systems
+- _Communications_
+  - Notify affected users
+- User Educations
+  - End-User training
+
+---
+
+## Proactive Phishing Defense
+
+- _Email Filtering_
+  - Email Security Appliances
+  - Marking external emails
+- _URL Scanning and Blocking_
+  - Real-time URL inspection
+  - Block recently registered domains
+- _Attachment Filtering_
+  - File Extension blocks
+  - Attachment sand boxing
+- _Email Authentication Methods_
+  - SPF
+  - DKIM
+  - DMARC
