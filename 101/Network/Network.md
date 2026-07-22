@@ -47,3 +47,12 @@
   - Destination IP
   - Destination Port
   - Transport Protocol
+
+- **Advantages**
+  - Efficient bandwidth and storage requirements
+  - High level pattern and anomaly detection
+  - Easier to scale
+
+- **Disadvantages**
+  - Lacks payload detail
+  - Doesn't give you the whole picture
