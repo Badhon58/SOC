@@ -41,3 +41,11 @@ _Profile_ : Change the Profile will store the data like a different user
 ---
 
 **WireShark Statistics**
+
+---
+
+# NEW
+
+TLS Secrets
+Inject TLS Secrets
+Inject ESP Secrets
