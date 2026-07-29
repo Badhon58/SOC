@@ -9,3 +9,6 @@ $ docker compose -f generate-indexer-certs.yml run --rm generator
 
 $ docker compose up -d
 ```
+
+UserName : admin
+Password : SecretPassword
