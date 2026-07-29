@@ -96,10 +96,18 @@ Email : jemere8036@gwshare.com
   - Aws CloudTrail
   - Azure Security Center
   - CloudFlare
-- Compliance and Auditing
-  -
+- ## Compliance and Auditing
 
 ---
 
 ## Install Wazuh
+
 😀😀
+
+```bash
+# Install Wazuh
+$ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
+# Get the Password
+$ sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
+```
