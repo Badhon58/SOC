@@ -96,7 +96,7 @@ Set Up the brup Suite For Attack
   ![Open the Traffic with Burp](./Open%20It%20with%20Burp%20Suite.png)
   - Send it to the Intruder
 
-- Cluster Attack On Brup Suite
+- Cluster Attack Using Brup Suite
   ![Cluster Attack On Brup Suite](./BurpSuiteAttacks.png)
 
 - Check On the Threat Hunter
