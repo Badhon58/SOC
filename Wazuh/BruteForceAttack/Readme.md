@@ -42,7 +42,7 @@ Clone the Wazuh Docker repository.
 ```bash
 $ git clone https://github.com/wazuh/wazuh-docker.git -b v4.14.6
 
-Navigate to the deployment directory.
+# Navigate to the deployment directory.
 $ cd wazuh-docker/multi-node
 
 # Generate the required certificates.

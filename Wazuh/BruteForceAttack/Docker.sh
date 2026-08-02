@@ -21,16 +21,24 @@ newgrp docker <<EOF
 echo "✅ Docker version:"
 docker --version
 
-echo "📦 Installing Docker Compose plugin..."
-DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
-mkdir -p $DOCKER_CONFIG/cli-plugins
+# echo "📦 Installing Docker Compose plugin..."
+# DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
+# mkdir -p $DOCKER_CONFIG/cli-plugins
 
-curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 \
-  -o $DOCKER_CONFIG/cli-plugins/docker-compose
+# curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 \
+#   -o $DOCKER_CONFIG/cli-plugins/docker-compose
 
-chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
+# chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
 
-echo "✅ Docker Compose version:"
+# echo "✅ Docker Compose version:"
+# docker compose version
+sudo mkdir -p /usr/local/lib/docker/cli-plugins
+
+sudo curl -SL "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" \
+  -o /usr/local/lib/docker/cli-plugins/docker-compose
+
+sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+
 docker compose version
 
 echo "🔧 Installing Docker Buildx plugin (stable version)..."
