@@ -74,4 +74,6 @@ $ sudo ls -al /var/log/suricata
 $ curl http://testmynids.org/uid/index.html
 $ sudo cat /var/log/suricata/fast.log
 
+
+# sudo tcpdump -i eth0 icmp
 ```
