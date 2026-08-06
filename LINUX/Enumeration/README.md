@@ -64,5 +64,16 @@ $ netstat -alo
 ## Password Enumeration
 
 ```bash
+# Finding Password
+$ grep --color=auto -rnw '/' -ie "PASS=" --color=always 2> /dev/null
 
 ```
+
+## Automated Tools Intro
+
+```bash
+# Git Hub Tool
+$ https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
+```
+
+
